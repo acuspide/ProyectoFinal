@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.SalidaController">
+   <children>
+      <Label layoutX="34.0" layoutY="27.0" text="Salida" />
+      <TextField fx:id="textId" alignment="CENTER" layoutX="92.0" layoutY="84.0" promptText="Id" />
+      <Button fx:id="buscarId" layoutX="293.0" layoutY="84.0" mnemonicParsing="false" onAction="#busquedaPorId" text="Buscar Id" />
+      <TextField fx:id="textPlaca" alignment="CENTER" layoutX="92.0" layoutY="146.0" promptText="Placa" />
+      <Button fx:id="buscarPlaca" layoutX="293.0" layoutY="146.0" mnemonicParsing="false" onAction="#buscarPorPlaca" text=" Buscar Placa" />
+      <Label layoutX="104.0" layoutY="233.0" text="Nombre" />
+      <Label layoutX="104.0" layoutY="258.0" text="Placa" />
+      <Label layoutX="104.0" layoutY="283.0" text="Puesto" />
+      <Label layoutX="104.0" layoutY="333.0" text="Costo" />
+      <Label fx:id="nombreSalida" layoutX="242.0" layoutY="233.0" />
+      <Label fx:id="placaSalida" layoutX="242.0" layoutY="258.0" />
+      <Label fx:id="PuestoSalida" layoutX="242.0" layoutY="283.0" />
+      <Label fx:id="costoActual" layoutX="242.0" layoutY="333.0" />
+      <Button fx:id="registroSalida" layoutX="140.0" layoutY="410.0" mnemonicParsing="false" onAction="#realizarSalida" text="Realizar salida" />
+      <Button fx:id="btCancelar" layoutX="282.0" layoutY="410.0" mnemonicParsing="false" onAction="#cancelarSalida" text="Cancelar" />
+      <Label layoutX="104.0" layoutY="309.0" text="Id" />
+      <Label fx:id="idRetiro" layoutX="242.0" layoutY="309.0" />
+   </children>
+</AnchorPane>
